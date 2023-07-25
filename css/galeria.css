@@ -1,0 +1,42 @@
+.galeria--agregar{
+    background: #2A7AE4;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-top: 5px;
+    box-shadow: 0px 6px 8px -5px rgba(0, 0, 0, 0.50);
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    width: 80%;
+    padding-left: 6rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.galeria--contenedor--img{
+    position: relative;
+}
+
+.galeria--cont--editar{
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.galeria--img--editar{
+    padding: 11px;
+}
+
+.galeria--referencia{
+    font-weight: bold;
+    padding: 0.75rem 0;
+}
