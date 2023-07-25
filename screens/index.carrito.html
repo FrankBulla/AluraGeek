@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraGeek</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/login.css">
-    <link rel="stylesheet" href="css/contacto.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/header.css">
+    <link rel="stylesheet" href="assets/carrito.css">
+    <link rel="stylesheet" href="assets/contacto.css">
+    <link rel="stylesheet" href="assets/footer.css">
 </head>
 <body>
     <header class="header">
@@ -19,17 +19,21 @@
                 <input class="header--buscador" type="text" placeholder="¿Qué deseas buscar?">
                 <button class="header--search" type="submit"><img src="/img/Icone.png"></button>
             </div>
+            <button class="menu--admin" href="screens/index.html" onclick="login">Menú Administrador</button>
         </section>
     </header>
 
     <main>
-        <section class="login">
-            <div class="login--formulario">
-                <h2 class="login--titulo">Iniciar Sesión</h2>
-                <form class="login--form">
-                    <input class="login--input" name="name" id="name" type="text" placeholder="Escriba su correo electrónico" required>
-                    <input class="login--input" name="name" id="name" type="text" placeholder="Escriba su contraseña" required>
-                    <button class="login--boton" type="submit" href="#">Entrar</button>
+        <section class="carrito">
+            <div class="carrito--formulario">
+                <h2 class="carrito--titulo">Agregar Nuevo Producto</h2>
+                <form class="carrito--form">
+                    <input class="carrito--input" name="name" id="name" type="text" placeholder="URL de la Imagen">
+                    <input class="carrito--input" name="name" id="name" type="text" placeholder="Categoría">
+                    <input class="carrito--input" name="name" id="name" type="text" placeholder="Nombre del Producto">
+                    <input class="carrito--input" name="name" id="name" type="text" placeholder="Precio del Producto">
+                    <input class="carrito--input--descripcion" name="name" id="name" type="text" placeholder="Descripción del Producto">
+                    <button class="carrito--boton" type="submit" href="#">Agregar Producto</button>
                 </form>
             </div>
         </section>

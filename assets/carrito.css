@@ -1,0 +1,91 @@
+.menu--admin{
+    border-color: #2A7AE4;
+    color: #2A7AE4;
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.menu--admin:hover{
+    background: #2A7AE4;
+    color: white;
+}
+
+.carrito{
+    font-family: Raleway, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.carrito--formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: 700px;
+    align-items: center;
+}
+
+.carrito--titulo{
+    font-weight: bold;
+    font-size: 26px;
+    padding: 5px 0;
+}
+
+.carrito--form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+}
+
+.carrito--input{
+    border: none;
+    width: 400px;
+    height: 80px;
+    margin: 5px 0px;
+    box-shadow: 0px 6px 8px -5px rgba(0, 0, 0, 0.50);
+}
+
+.carrito--input--descripcion{
+    border: none;
+    width: 400px;
+    height: 100px;
+    margin: 2px 0px;
+    box-shadow: 0px 6px 8px -5px rgba(0, 0, 0, 0.50);
+}
+
+.carrito--boton{
+    background: #2A7AE4;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    margin-top: 5px;
+    box-shadow: 0px 6px 8px -5px rgba(0, 0, 0, 0.50);
+    width: 400px;
+    height: 50px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:560px){
+    .menu--admin{
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .carrito--input{
+        width: 280px;
+    }
+
+    .carrito--input--descripcion{
+        width: 280px;
+    }
+
+    .carrito--boton{
+        width: 280px;
+    }
+}
