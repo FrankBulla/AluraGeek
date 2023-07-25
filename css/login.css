@@ -1,0 +1,58 @@
+.login{
+    font-family: Raleway, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.login--formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+    align-items: center;
+}
+
+.login--titulo{
+    font-weight: bold;
+    font-size: 26px;
+    padding: 5px 0;
+}
+
+.login--form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+}
+
+.login--input{
+    border: none;
+    width: 400px;
+    height: 80px;
+    margin: 5px 0px;
+    box-shadow: 0px 6px 8px -5px rgba(0, 0, 0, 0.50);
+}
+
+.login--boton{
+    background: #2A7AE4;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    margin-top: 5px;
+    box-shadow: 0px 6px 8px -5px rgba(0, 0, 0, 0.50);
+    width: 400px;
+    height: 80px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:560px){
+    .login--input{
+        width: 280px;
+    }
+
+    .login--boton{
+        width: 280px;
+    }
+}
