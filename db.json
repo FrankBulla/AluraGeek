@@ -1,0 +1,113 @@
+{
+   "producto": [
+    {
+        "imageURL": "/img/StarWars1.png",
+        "name": "StarWars XYZ",
+        "price": "$60,00",
+        "id": 1
+    },
+    {
+        "imageURL": "/img/StarWars2.png",
+        "name": "StarWars XYZ",
+        "price": "$60,00",
+        "id": 2
+    },
+    {
+        "imageURL": "/img/StarWars3.png",
+        "name": "StarWars XYZ",
+        "price": "$60,00",
+        "id": 3
+    },
+    {
+        "imageURL": "/img/StarWars4.png",
+       "name": "StarWars XYZ",
+        "price": "$60,00",
+        "id": 4
+    },
+    {
+        "imageURL": "/img/StarWars5.png",
+        "name": "StarWars XYZ",
+        "price": "$60,00",
+        "id": 5
+    },
+    {
+        "imageURL": "/img/StarWars6.png",
+        "name": "StarWars XYZ",
+        "price": "$60,00",
+        "id": 6
+    },
+    {
+        "imageURL": "/img/Consolas1.png",
+        "category": "Consolas",
+        "name": "Consolas XYZ",
+        "price": "$80,00",
+        "id": 7
+    },
+    {
+        "imageURL": "/img/Consolas2.png",
+        "name": "Consolas XYZ",
+        "price": "$80,00",
+        "id": 8
+    },
+    {
+        "imageURL": "/img/Consolas3.png",
+        "name": "Consolas XYZ",
+        "price": "$80,00",
+        "id": 9
+    },
+    {
+        "imageURL": "/img/Consolas4.png",
+        "name": "Consolas XYZ",
+        "price": "$80,00",
+        "id": 10
+    },
+    {
+        "imageURL": "/img/Consolas5.png",
+        "name": "Consolas XYZ",
+        "price": "$80,00",
+        "id": 11
+    },
+    {
+        "imageURL": "/img/Consolas6.png",
+        "name": "Consolas XYZ",
+        "price": "$80,00",
+        "id": 12
+    },
+    {
+        "imageURL": "/img/Otros1.png",
+        "name": "Accesorios XYZ",
+        "price": "$30,00",
+        "id": 13
+    },
+    {
+        "imageURL": "/img/Otros2.png",
+        "name": "Accesorios XYZ",
+        "price": "$30,00",
+        "id": 14
+    },
+    {
+        "imageURL": "/img/Otros3.png",
+        "name": "Accesorios XYZ",
+        "price": "$30,00",
+        "id": 15
+    },
+    {
+        "imageURL": "/img/Otros4.png",
+        "name": "Accesorios XYZ",
+        "price": "$30,00",
+        "id": 16
+    },
+    {
+        "imageURL": "/img/Otros5.png",
+        "name": "Accesorios XYZ",
+        "price": "$30,00",
+        "id": 17
+    },
+    {
+        "imageURL": "/img/Otros6.png",
+        "name": "Accesorios XYZ",
+        "price": "$30,00",
+        "id": 18
+    }
+   ] 
+}
