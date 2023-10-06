@@ -27,8 +27,8 @@
             <div class="login--formulario">
                 <h2 class="login--titulo">Iniciar Sesión</h2>
                 <form class="login--form">
-                    <input class="login--input" name="name" id="name" type="text" placeholder="Escriba su correo electrónico" required>
-                    <input class="login--input" name="name" id="name" type="text" placeholder="Escriba su contraseña" required>
+                    <input class="login--input" name="name" id="name" type="email" placeholder="Escriba su correo electrónico" required data-tipo ="email" data-email>
+                    <input class="login--input" name="name" id="name" type="password" placeholder="Escriba su contraseña" required data-tipo ="password" pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$" data-password>
                     <button class="login--boton" type="submit" href="#">Entrar</button>
                 </form>
             </div>

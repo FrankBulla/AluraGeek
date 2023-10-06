@@ -27,11 +27,11 @@
         <section class="carrito">
             <div class="carrito--formulario">
                 <h2 class="carrito--titulo">Agregar Nuevo Producto</h2>
-                <form class="carrito--form">
-                    <input class="carrito--input" name="imageURL" id="imageURL" type="text" placeholder="URL de la Imagen">
-                    <input class="carrito--input" name="name" id="name" type="text" placeholder="Nombre del Producto">
-                    <input class="carrito--input" name="price" id="price" type="text" placeholder="Precio del Producto">
-                    <input class="carrito--input--descripcion" name="description" id="description" type="text" placeholder="Descripción del Producto">
+                <form class="carrito--form" data-form>
+                    <input class="carrito--input" name="imageURL" id="imageURL" type="text" placeholder="URL de la Imagen" data-url>
+                    <input class="carrito--input" name="name" id="name" type="text" placeholder="Nombre del Producto" data-nombre>
+                    <input class="carrito--input" name="price" id="price" type="text" placeholder="Precio del Producto" data-precio>
+                    <input class="carrito--input--descripcion" name="description" id="description" type="text" placeholder="Descripción del Producto" data-descripcion>
                     <button class="carrito--boton" type="submit" href="#">Agregar Producto</button>
                 </form>
             </div>
@@ -73,6 +73,8 @@
             </div>
         </section>
     </footer>
+
+    <script src="/controllers/crear-producto controller.js"></script>
     
 </body>
 </html>
